@@ -35,4 +35,4 @@ for(let split = 0; split < split_sentence.length; split++){
   Sort the list by key alphabetically 
 */
 var concordance_sorted = new Map([...concordance_list].sort((a,b) => String(a[0]).localeCompare(b[0])));
-console.log(concordance_sorted);
+
