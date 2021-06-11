@@ -2,7 +2,6 @@ let string_text = "Given an arbitrary text document written in English, write a 
 
 //data cleansing - remove punctuations from string 
 let final_string = string_text.replace(/[^A-Za-z0-9\s]/g,"").replace(/\s{2,}/g, " ");
-console.log(final_string);
 let split_sentence = final_string.split("\n");
 
 let concordance_list = new Map();
