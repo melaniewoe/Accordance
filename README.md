@@ -4,7 +4,9 @@ A program that will generate a concordance, i.e. an alphabetical list of all wor
 # How to run the code
 In the terminal/command prompt
 1.) Install Node.js.
+
 2.) Go to the file path where the file is located at.
+
 3.) Run `node index.js` 
 
 # Example
