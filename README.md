@@ -3,6 +3,7 @@ A program that will generate a concordance, i.e. an alphabetical list of all wor
 
 # How to run the code
 In the terminal/command prompt
+
 1.) Install Node.js.
 
 2.) Go to the file path where the file is located at.
@@ -13,6 +14,7 @@ In the terminal/command prompt
 Arbitrary text: Given an arbitrary text document written in English, write a program that will generate a concordance, i.e. an alphabetical list of all word occurrences, labeled with word frequencies.\nBonus: label each word with the sentence numbers in which each occurrence appeared.
 
 Result: 
+```
 Map {
   'a' => { number_occurence: 2, sentence: [ 1, 1 ] },
   'all' => { number_occurence: 1, sentence: [ 1 ] },
@@ -49,3 +51,4 @@ Map {
   'write' => { number_occurence: 1, sentence: [ 1 ] },
   'written' => { number_occurence: 1, sentence: [ 1 ] }
 }
+```
